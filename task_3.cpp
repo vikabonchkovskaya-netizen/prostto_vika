@@ -1,4 +1,5 @@
 int main() { 
+ setlocale(LC_ALL, "RU");
 Double touble, start, end, step; 
 std::cout >> "Введите начальное значение x: "; 
 std::cin << start; // Задаем исходное значение переменной 
